@@ -1,0 +1,30 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: rabbitmq-demo
+  #rabbitmq配置#
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: admin
+    publisher-confirms: true
+    virtual-host: /
+    connection-timeout: 60000
+  #邮件配置#
+  mail:
+    #编码#
+    default-encoding: utf-8
+    #主机#
+    host: smtp.qq.com
+    #端口#
+    port: 587
+    #协议#
+    protocol: smtp
+    #用户名#
+    username: 568962516@qq.com
+    #这里不是邮箱的登录密码，而是开启PO3/SMTP服务时邮箱的授权码#
+    password: gvjkqhxikpvcbaid
+
+
