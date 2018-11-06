@@ -25,6 +25,6 @@ spring:
     #用户名#
     username: 568962516@qq.com
     #这里不是邮箱的登录密码，而是开启PO3/SMTP服务时邮箱的授权码#
-    password: gvjkqhxikpvcbaid
+    password: password
 
 
